@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quantum Club - C. V. Raman Global University</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
+header {
+    background: #0a1f44;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+header h1 { margin: 0; font-size: 2em; }
+header p { margin: 5px 0 0; font-size: 1em; color: #cfd8dc; }
+nav {
+    background: #0a1f44;
+    text-align: center;
+    padding: 12px 0;
+}
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover { color: #d4af37; }
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                url('https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 120px 20px;
+    position: relative;
+}
+.banner h2 { font-size: 3em; margin: 0; text-shadow: 2px 2px 6px rgba(0,0,0,0.6); }
+.banner p { margin-top: 15px; font-size: 1.2em; text-shadow: 1px 1px 3px rgba(0,0,0,0.6); }
+.section, #welcome {
+    width: 85%; max-width: 1100px; margin: 40px auto;
+    background: #ffffff; border-radius: 12px; padding: 40px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08); text-align: center;
+}
+.section h2, #welcome h2 { color: #0a1f44; text-transform: uppercase; margin-bottom: 30px; }
+#welcome h2 { margin-bottom: 20px; }
+#welcome p { font-size: 1.1em; color: #555; }
+.events, .members {
+    display: flex; justify-content: center; flex-wrap: wrap; gap: 25px;
+}
+.card {
+    width: 250px; border-radius: 12px; overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1); text-align: center;
+    background: #fff; transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-8px); box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+.card img { width: 100%; height: 150px; object-fit: cover; }
+.card h3 { margin: 15px 0 10px; color: #0a1f44; }
+.card p { padding: 0 10px 15px; color: #555; font-size: 0.95em; }
+form {
+    width: 60%; margin: auto; display: flex; flex-direction: column; gap: 15px;
+}
+form input, form select, form textarea {
+    padding: 12px; border: 1px solid #ccc; border-radius: 10px; font-size: 1em;
+}
+form input:focus, form select:focus, form textarea:focus { border-color: #0a1f44; outline: none; }
+form button {
+    padding: 12px; background: #0a1f44; color: #fff;
+    border: none; border-radius: 10px; cursor: pointer; font-weight: 700;
+}
+form button:hover { background: #1a2e66; }
+footer {
+    background: #0a1f44; color: #fff; text-align: center;
+    padding: 20px; font-size: 0.9em;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Quantum Club</h1>
+    <p>C. V. Raman Global University</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#members">Members</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div id="home" class="banner">
+    <h2>Innovating the Future with Quantum Computing</h2>
+    <p>Join the Quantum Club and be part of the next technological revolution</p>
+    <h2>Welcome to Quantum Club</h2>
+    <p>Exploring the Fascinating World of Quantum Computing and Innovation</p>
+</div>
+
+<div id="about" class="section">
+    <h2>About Us</h2>
+    <p>The Quantum Club at C. V. Raman Global University is a student-led initiative dedicated to exploring Quantum Computing, Quantum Mechanics, and emerging technologies. We aim to create awareness, encourage research, and foster collaboration.</p>
+</div>
+
+<div id="events" class="section">
+    <h2>Upcoming Events</h2>
+    <div class="events">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=400&q=80" alt="Quantum Workshop">
+            <h3>Quantum Workshop</h3>
+            <p>Hands-on session: Quantum Algorithms & Qiskit</p>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=400&q=80" alt="Guest Seminar">
+            <h3>Guest Seminar</h3>
+            <p>Discover Quantum Applications in AI & Future Tech</p>
+        </div>
+    </div>
+</div>
+
+<div id="members" class="section">
+    <h2>Our Members</h2>
+    <div class="members">
+        <div class="card">
+            <img src="C:\Users\HP\Downloads\download (2).jpeg" alt="Member 1">
+            <h3>Vivek Sharma</h3>
+        </div>
+        <div class="card">
+            <img src="C:\Users\HP\Downloads\wt ass-1.2.jpeg" alt="Member 2">
+            <h3>Ashwini Sahu</h3>
+        </div>
+        <div class="card">
+            <img src="C:\Users\HP\Downloads\download.jpeg" alt="Member 3">
+            <h3>Ritesh Roy</h3>
+             </div>
+    </div>
+</div>
+
+<div id="register" class="section">
+    <h2>Register for Membership</h2>
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <select required>
+            <option>-- Select Department --</option>
+            <option>Computer Science</option>
+            <option>Electronics</option>
+            <option>Physics</option>
+        </select>
+        <textarea placeholder="Why do you want to join?" required></textarea>
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<div id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📧 Email: quantumclub@cgu-odisha.ac.in</p>
+    <p>📍 Address: C. V. Raman Global University, Bhubaneswar, Odisha</p>
+</div>
+
+<footer>
+    <p>© 2025 Quantum Club, C. V. Raman Global University. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
